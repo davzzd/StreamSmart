@@ -1,6 +1,8 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+.cursor/
 .cursor/rules/
+.cursor/rules/movie-app-rules
 
 # dependencies
 node_modules/
