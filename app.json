@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "movie_app",
+    "name": "DavMovies",
     "slug": "movie_app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.davmovies.watchitnow"
     },
     "web": {
       "bundler": "metro",
@@ -25,6 +26,11 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7e800c2c-3714-4759-bf87-5cadc4287d97"
+      }
+    }
   }
 }
