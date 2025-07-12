@@ -4,8 +4,6 @@ A beautiful and feature-rich movie streaming application built with React Native
 changes to be added: 1. semantic search powered by vector embeddings
                      2. TV show integration
 
-To test Version1 of our App(Android only for now): [Android APK download Link](https://expo.dev/accounts/davzzd2/projects/movie_app/builds/dccda9d1-ed49-47f3-823c-670cd6a552cd)
-
 ## ✨ Features
 
 - **🎭 Browse Movies**: Discover trending, popular, top-rated, and upcoming movies
