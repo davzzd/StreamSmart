@@ -1,6 +1,8 @@
-# 🎬 MovieApp - React Native Movie Streaming App
+# 🎬 StreamSmart - A Semantic Search Based Movie Streaming Platform
 
 A beautiful and feature-rich movie streaming application built with React Native, Expo, and NativeWind.
+changes to be added: 1. semantic search powered by vector embeddings
+                     2. TV show integration
 
 ## ✨ Features
 
@@ -8,7 +10,7 @@ A beautiful and feature-rich movie streaming application built with React Native
 - **🔍 Search**: Search for your favorite movies with real-time results
 - **💾 Save Movies**: Save movies to watch later with local storage
 - **🎥 Stream Movies**: Watch movies directly in the app using Vidfast.pro
-- **📱 Cross-Platform**: Works on iOS, Android, and Web
+- **📱 Cross-Platform**: Works on iOS(not yet implemented), Android, and Web
 - **🎨 Beautiful UI**: Modern design with NativeWind/Tailwind styling
 - **⚡ Fast & Responsive**: Optimized performance with React Native
 
@@ -44,28 +46,12 @@ A beautiful and feature-rich movie streaming application built with React Native
    npm install
    ```
 
-3. **Set up environment variables**
-   
-   Create a `.env` file in the root directory:
-   ```env
-   TMDB_API_KEY=your_tmdb_api_key_here
-   TMDB_BASE_URL=https://api.themoviedb.org/3
-   VIDFAST_BASE_URL=https://vidfast.pro/embed/movie
-   ```
-
-   **To get a TMDB API key:**
-   1. Go to [TMDB](https://www.themoviedb.org/)
-   2. Create an account
-   3. Go to Settings > API
-   4. Request an API key
-   5. Copy the API key to your `.env` file
-
-4. **Start the development server**
+3. **Start the development server**
    ```bash
    npm start
    ```
 
-5. **Run on your preferred platform**
+4. **Run on your preferred platform**
    ```bash
    # iOS
    npm run ios
@@ -110,6 +96,8 @@ hooks/
 - **Save Functionality**: Tap the save icon to add movies to your list
 
 ### Search Screen
+- **Semantic Search**: Toggle semantic search to query for movies based on feelings or mood. eg. "I am feeling sad", will suggest happy movies.(in development).
+- **TV show/ Movies**: Toggle between search for movies or tv shows.(to be implemented in version 2).
 - **Real-time Search**: Search movies as you type with debouncing
 - **Results Display**: Grid layout showing search results
 - **Empty States**: Helpful messages when no search is performed or no results found
@@ -193,25 +181,14 @@ expo build:web
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- **TMDB** for providing the movie database API
-- **Vidfast.pro** for streaming functionality
-- **Expo** for the amazing development platform
-- **NativeWind** for the styling solution
-
 ## 🆘 Support
 
 If you encounter any issues:
 
-1. Check the [Expo documentation](https://docs.expo.dev/)
-2. Verify your TMDB API key is correct
-3. Ensure all dependencies are installed
-4. Check the console for error messages
+1. Create and submit issue in the repository
+2. Ensure all dependencies are installed
+3. Check the console for error messages
+4. Send email to davidmathewmojish@gmail.com or contact https://github.com/davzzd
 
 ---
 
