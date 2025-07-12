@@ -9,7 +9,6 @@ changes to be added: 1. semantic search powered by vector embeddings
 - **🎭 Browse Movies**: Discover trending, popular, top-rated, and upcoming movies
 - **🔍 Search**: Search for your favorite movies with real-time results
 - **💾 Save Movies**: Save movies to watch later with local storage
-- **🎥 Stream Movies**: Watch movies directly in the app using Vidfast.pro
 - **📱 Cross-Platform**: Works on iOS(not yet implemented), Android, and Web
 - **🎨 Beautiful UI**: Modern design with NativeWind/Tailwind styling
 - **⚡ Fast & Responsive**: Optimized performance with React Native
@@ -20,7 +19,6 @@ changes to be added: 1. semantic search powered by vector embeddings
 - **NativeWind** for Tailwind-style styling
 - **Expo Router** for navigation
 - **TMDB API** for movie data
-- **Vidfast.pro** for streaming
 - **AsyncStorage** for local data persistence
 - **TypeScript** for type safety
 
@@ -104,7 +102,6 @@ hooks/
 
 ### Movie Details
 - **Rich Information**: Full movie details including cast, genres, and ratings
-- **Streaming**: Watch movies directly in the app using Vidfast.pro
 - **Similar Movies**: Discover related content
 - **Save/Unsave**: Toggle movie save status
 
